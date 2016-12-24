@@ -16,7 +16,11 @@ for line in file:
 			c = max(0, c - 1)
 		elif (char == 'R'):
 			c = min(2, c + 1)
+<<<<<<< HEAD
 
 	# Print the new position after reading the current line
 	print(keypad[r][c])
+=======
+	print(keypad[r][c], end="")
+>>>>>>> eb689f19d729829c5ad95c96810feaf482f5c763
 file.close()
